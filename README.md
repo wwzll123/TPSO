@@ -1,4 +1,4 @@
-# TPSO
+# TPSO-DBP
 Standalone Program of TPSO-DBP
 # Pre-requisite:
 - Python, Java, numpy, pytorch
