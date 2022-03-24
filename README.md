@@ -40,7 +40,7 @@ PSIPRED_HOME=Absolute_Path_PSIPRED_Installtion/psipred321
  ``` 
  python main.py
 ``` 
-- the predicted result will be generated in file of './workFolder/seqs.fa'.
+- the predicted result will be generated in file of './workFolder/querys.jun_res'.
   
 # Note
 - Files of .dbs_prob, .sa and .opssm are generated in './jar/example'.
