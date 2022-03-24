@@ -7,9 +7,9 @@ Standalone Program of TPSO-DBP
 - PSIPRED(psiped321) software(https://i12r-studfilesrv.informatik.tu-muenchen.de/wiki/index.php/Psipred)
 - Linux system (suggested CentOS 7)
 # Installation:
-First,download compressed package in (https://github.com/wwzll123/TPSO/releases/tag/TPSO_DBP.tar.gz)
-second, uncompress it.
-third,provide executable permissions for file of './jar/tools/blast-2.2.26/blastpgp'.
+- First,download compressed package in (https://github.com/wwzll123/TPSO/releases/tag/TPSO_DBP.tar.gz)
+- second, uncompress it.
+- third,provide executable permissions for file of './jar/tools/blast-2.2.26/blastpgp'.
 
 
 # Set config
@@ -35,12 +35,12 @@ PSIPRED_HOME=Absolute_Path_PSIPRED_Installtion/psipred321
  ```
  
  # Running
-You should make sure your query protein seqs in the file of './workFolder/seqs.fa'.
-than, enter the following command lines on Linux System.
+- You should make sure your query protein seqs in the file of './workFolder/seqs.fa'.
+- than, enter the following command lines on Linux System.
  ``` 
  python main.py
 ``` 
-the predicted result will be generated in file of './workFolder/seqs.fa'.
+- the predicted result will be generated in file of './workFolder/seqs.fa'.
   
 # Note
 - Files of .dbs_prob, .sa and .opssm are generated in './jar/example'.
