@@ -41,6 +41,7 @@ PSIPRED_HOME=Absolute_Path_PSIPRED_Installtion/psipred321
  python main.py
 ``` 
 - the predicted result will be generated in file of './workFolder/querys.jun_res'.
+- The first column is the prediction result, 0 means non-DBP, 1 means DBP. The second column is the probability of being predicted as a positive sample. The third column is the probability of being predicted as a negative sample.
   
 # Note
 - Files of .dbs_prob, .sa and .opssm are generated in './jar/example'.
