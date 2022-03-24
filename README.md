@@ -4,7 +4,7 @@ Standalone Program of TPSO-DBP
 - Python(3), java(1.8),numpy(1.2 or higher), pytorch(1.2 or higher)
 - SANN software (https://github.com/newtonjoo/sann)
 - NCBI nr90 database (ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)
-- PSIPRED software(https://i12r-studfilesrv.informatik.tu-muenchen.de/wiki/index.php/Psipred)
+- PSIPRED(psiped321) software(https://i12r-studfilesrv.informatik.tu-muenchen.de/wiki/index.php/Psipred)
 - Linux system (suggested CentOS 7)
 # Installation:
 First,download compressed package in (https://github.com/wwzll123/TPSO/releases/tag/TPSO_DBP.tar.gz)
