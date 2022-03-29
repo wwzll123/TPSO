@@ -1,0 +1,45 @@
+# FileSplit.jar & FileUnion.jar:
+  FileSplit.jar: A program is used to split the goal file into multiple small files.
+  FileUnion.jar: A program is used to combine multiple small files into the goal file.
+  
+## Pre-requisite:
+   - Java running environment.
+
+## Run:
+    1. Spliting the goal file into multiple small files.
+	
+	   java -jar FileSplit.jar [input] [input] [input]
+	
+		[input]orig_path(String)
+		[input]mem_size(int)
+		[input]save_folder(String)
+
+		Note: 
+		
+		   a. you should input three parameters: orig_path, mem_size(in megabytes), save_folder;
+		      
+		   b. give an example: java -jar FileSplit.jar DataSet.rar 1 ./ 
+		   
+		   c. The generated Files named by the format "DataSet.rar_xx" could be found at the path of "./" ,
+		   
+		   
+		      Please do not modify the name of the generated files.
+	   
+	2.Combining multiple small files into the goal file.
+	
+		java -jar FileUnion.jar [input] [input]
+		
+			[input]folder_path(String)
+			[input]save_path(String)
+
+			Note: 
+			
+			   a. you should input two parameters: folder_path, save_path;
+				  
+			   b. give an example: java -jar FileUnion.jar ./ ./DataSet.zip
+			   
+			   c. The generated File named DataSet.zip could be found at the path of "./"
+	 
+## Update History:
+
+- First release 2021-12-28
