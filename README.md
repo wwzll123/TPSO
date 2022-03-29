@@ -1,7 +1,7 @@
 # TPSO-DBP
 Standalone Program of TPSO-DBP
 # Pre-requisite:
-- Python(3), java(1.8),numpy(1.2 or higher), pytorch(1.2 or higher)
+- Python(3), java(1.8),numpy(1.20 or higher), pytorch(1.5 or higher)
 - SANN software (https://github.com/newtonjoo/sann)
 - NCBI nr90 database (ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)
 - PSIPRED(psiped321) software(https://i12r-studfilesrv.informatik.tu-muenchen.de/wiki/index.php/Psipred)
