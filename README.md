@@ -7,9 +7,15 @@ Standalone Program of TPSO-DBP
 - PSIPRED(psiped321) software(https://i12r-studfilesrv.informatik.tu-muenchen.de/wiki/index.php/Psipred)
 - Linux system (suggested CentOS 7)
 # Installation:
-- First,download compressed package in (https://github.com/wwzll123/TPSO/releases/tag/TPSO_DBP.tar.gz)
-- second, uncompress it.
-- third,provide executable permissions for file of './jar/tools/blast-2.2.26/blastpgp'.
+- First, download compressed packages in 
+- second, download the FileUnion.jar
+- third, union these compressed packages using FileUnion.jar by typing the following command
+```
+# [packages folder path] should be the path that contains files of TPSO_DBP.tar.gz_0 ~ TPSO_DBP.tar.gz_20.
+java -jar FileUnion.jar [packages folder path] ./TPSO_DBP.tar.gz
+```
+- fourth, uncompress the generated file of TPSO_DBP.tar.gz.
+- fifth, provide executable permissions for file of './jar/tools/blast-2.2.26/blastpgp'.
 
 
 # Set config
