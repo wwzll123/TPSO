@@ -12,7 +12,7 @@ Standalone Program of TPSO-DBP
 - third, union these compressed packages using FileUnion.jar by typing the following command
 ```
 # [packages folder path] should be the path that contains files of TPSO_DBP.tar.gz_0 ~ TPSO_DBP.tar.gz_20.
-java -jar FileUnion.jar [packages folder path] ./TPSO_DBP.tar.gz
+$ java -jar FileUnion.jar [packages folder path] ./TPSO_DBP.tar.gz
 ```
 - fourth, uncompress the generated file of TPSO_DBP.tar.gz.
 - fifth, provide executable permissions for file of './jar/tools/blast-2.2.26/blastpgp'.
@@ -41,10 +41,10 @@ PSIPRED_HOME=Absolute_Path_PSIPRED_Installtion/psipred321
  ```
  
  # Running
-- You should make sure your query protein seqs in the file of './workFolder/seqs.fa'.
+- You should make sure your query protein sequences in the file of './workFolder/seqs.fa'.
 - than, enter the following command lines on Linux System.
  ``` 
- python main.py
+ $ python main.py
 ``` 
 - the predicted result will be generated in file of './workFolder/querys.jun_res'.
 - The first column is the prediction result, 0 means non-DBP, 1 means DBP. The second column is the probability of being predicted as a positive sample. The third column is the probability of being predicted as a negative sample.
@@ -55,4 +55,7 @@ PSIPRED_HOME=Absolute_Path_PSIPRED_Installtion/psipred321
 - If you already have these files, just put them into the corresponding folder, then the feature generator will not run. This will greatly reduce the prediction time.
 - If you have any question, please send email to z804908905@163.com.
 - All the best to you!
+
+# Reference
+[1] Jun Hu, Wen-Wu Zeng, Ning-Xin Jia, Dong-Jun Yu, and Gui-Jun Zhang. Improving DNA-Binding Protein Prediction Using Three-Part Sequence-Order Feature Extraction and Deep Neural Network Algorithm. Submitted.
  
