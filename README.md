@@ -57,5 +57,5 @@ PSIPRED_HOME=Absolute_Path_PSIPRED_Installtion/psipred321
 - All the best to you!
 
 # Reference
-[1] Jun Hu, Wen-Wu Zeng, Ning-Xin Jia, Dong-Jun Yu, and Gui-Jun Zhang. Improving DNA-Binding Protein Prediction Using Three-Part Sequence-Order Feature Extraction and Deep Neural Network Algorithm. Submitted.
+[1] Jun Hu, Wen-Wu Zeng, Ning-Xin Jia, Shi-Jian Dong, Dong-Jun Yu, and Gui-Jun Zhang. Improving DNA-Binding Protein Prediction Using Three-Part Sequence-Order Feature Extraction and Deep Neural Network Algorithm. Submitted.
  
